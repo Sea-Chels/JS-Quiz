@@ -1,0 +1,110 @@
+*, *::before, *::after {
+    box-sizing:border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*color themes*/
+:root{
+    --medium-color: rgb(153, 172, 238);
+    --good-color: rgb(114, 204, 102);
+    --bad-color: rgba(218, 66, 28, 0.89);
+    --nuetral: rgb(148, 190, 145);
+    --light-text: white;
+}
+/*centers everything in the body*/
+body{
+    padding:0;
+    margin:0 25%;
+    display: flex;
+    width:100vh; 
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--medium-color);
+}
+#title{
+    color: var(--medium-color);
+}
+/*centers the container for the questiions*/
+.container{
+width:1000px;
+max-width:80%;
+background-color: white;
+border-radius: 5px;
+padding:10px;
+overflow: scroll;
+}
+
+/* center the grid */
+.btn-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin: 32px 5px;
+}
+.btn {
+    background-color: var(--nuetral);
+    border: 1px solid rgb(95, 95, 95);
+    border-radius: 15px;
+    padding: 5px 10px;
+    color: white;
+
+}
+
+.btn:hover{
+background-color:cadetblue;
+}
+/*controls for the quiz that include the next and start button*/
+.start-btn {
+    font-size: 125%;
+    padding:10px 20px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.next-btn{
+    font-size: 125%;
+    padding:10px 20px;
+    font-weight: bold;
+    font-family: cursive;
+}
+/* add a special class here to give the results button and the restart button some room between - have each class added either float left or float right to the controls divor evenly distribute the children */
+.results-btn{
+    font-size: 125%;
+    padding:10px 20px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer-container{
+    position:absolute;
+    transform: translate(00px,-300px);
+    margin: top 5px;
+    background-color:rgb(153, 153, 153);
+    padding:1%;
+    border-width:1px;
+    border-color:black;
+    border-style:solid; 
+    border-radius:5px;
+    color: white;
+}
+
+.results-container{
+    color: var(--good-color);
+    text-align: center;
+}
+#question {
+    color:black; 
+}
+/*this hides the quiz until the start button is clicked*/
+.hide {
+    display: none;
+}
+
+.show {
+    display:inherit;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link  rel = "stylesheet" type = "text/css" href="./Assets/Reset.css">
+    <link  rel = "stylesheet" type = "text/css" href="./Assets/Style.css">
+    <title id= "title">JS Quiz</title>
+</head>
+<body>
+  <div class= "timer-container hide" id='timer-container'>
+      <h4 class="time" style="text-align:center;"></h4>
+      <div id="main"></div>
+  </div>
+   <section class="container">
+      <div id= "question-container" class ="hide">
+        <h4 id = "question">Question</h4>
+        <div id="answer-buttons" class = "btn-grid">
+        </div>
+      </div>
+      <div class = "container results-container" id="results"></div>
+      <div class="controls">
+        <button id="start-btn" class="start-btn btn">Start Quiz</button>
+        <button id="next-btn" class="next-btn btn hide">Next</button>
+        <button id="results-btn" class="results-btn btn hide">Show Results</button>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./Assets/script.js"></script>
+</body>
+</html>
