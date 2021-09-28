@@ -4,9 +4,14 @@ The purpose of this project was to make a quiz mostly using javascript. I strugg
 I also think that it was necessary for me to continue learning and using javascript in class for me to be able to complete this project. There were some things covered in later weeks helped me to understand better what I was doing with this project. 
 ## Usage
 This is quiz made from javascript, so you need to first open up the page and press start. Once you do that you just need to just continue answering the questions then press next. Once you get to the end of the quiz you will see two buttons, one to restart the quiz, and one to show you your results. If you hit restart, you will start over, and your results will NOT be stored in local storage. if you results then you will be shown your score and it will be stored in local storage.
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+  
+  ![image of start button](Assets/images/Start-quiz.png)  
+  ![image of the first question](Assets/images/first-question.png)
+  ![image of the next question feature](Assets/images/next-button.png)
+  ![image of the last question](Assets/images/show-results.png)  
+  ![image of the results](Assets/images/results.png)  
+  ![image of the local storage feature](Assets/images/local-storage.png) 
+
 ## Credits
 A special thanks to my instructor, Alex, as well as my tutor Eric. 
 ## License
